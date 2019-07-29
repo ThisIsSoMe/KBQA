@@ -119,9 +119,11 @@ python Step4_链式路径查找_score_bert.py
 
 1. 链式问句求解过程中同时生成了该类问句的path，无需重新生成path
 
-2. 对path打分，生成最优路径：
+2. 生成bert输入文件，运行：Step1_修改模型输入的路径格式.ipynb
+
+3. 对path打分，生成最优路径：
 ```
-python Step4_链式路径查找_score_bert.py
+python Step2_链式路径查找_score_bert.py
 ```
 
-3. 生成剩下问句的答案，运行：
+4. 生成剩下问句的答案，运行：Step3_单多跳共同找答案.ipynb
